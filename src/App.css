@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  
+}
+a, button, input, textarea,p{
+  position:relative;
+  z-index: 9999
+}
+#nav{
+  z-index: 99999
+}
+.arrow:hover{
+  background-color: #FFC107 ;
+  color: #000
 }
 
 .App-logo {

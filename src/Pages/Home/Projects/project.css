@@ -1,0 +1,52 @@
+.details{
+    text-align: justify;
+}
+.card-hover{
+    overflow: hidden;
+    background-color: #3A3A3A;
+    color: #ddd;
+    font-size:larger;
+}
+.card-hover:hover{
+    background-color: #FFC107;
+    color:#000;
+    overflow: hidden;
+    transition: ease-out .3s;
+}
+
+.card-hover:hover .title{
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
+.hr{
+    background-color: #FFAC00;
+}
+.card-hover:hover .hr{
+    background-color: #000;
+}
+.card-hover:hover .listItem{
+    font-weight: 700;
+    
+}
+.btn-2{
+    background-color: #ddd;
+}
+.btn-2>a{
+    color:#000
+}
+.btn-2:hover{
+    background-color: #3A3A3A;
+    transition:ease-in-out 0.5s;
+}
+.btn-2:hover a{
+    color:#fff;
+}
+.footerCard{
+    color: #fff;
+    
+}
+.card-hover:hover .footerCard{
+    font-weight: 700;
+    color: #000;
+}

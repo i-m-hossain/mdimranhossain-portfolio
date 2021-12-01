@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "title": "A Jewelry shop",
+        "tech": [
+            "React",
+            "Express.s",
+            "MongoDB",
+            "Material UI",
+            "Firebase",
+            "Heroku",
+            "React icons",
+            "React hook form ",
+            "Axios",
+            "Dotenv",
+            "Cors"
+        ],
+        "details": "A Jewelry shop offers jewelry items to users. In order to place an order, a user needs to be authenticated. After login, the user will find a dashboard. He can see the order status and cancel the order. Also, the user can review with rating and contact to the shop owner using a contact form. An admin can manage users role, orders, and product.",
+        "description": [
+            "A single page application featuring jewelry products, order page, user reviews, and contact form",
+            "User authentication is required to access user role-based dashboard",
+            "If the uses intended to go any private route (i.e. place order) without login, They will be redirected to login.",
+            "After login the user will be redirected to the page where he intended to go",
+            "A logged-in user can cancel an order and leave a review with star rating",
+            "Admin can manage user roles, products, and orders.",
+            "Deployed to firebase",
+            "Collections were created(products, users, reviews, orders, contacts ) in the backend",
+            "CRUD operation performed for different api's",
+            "JWT token used to protect the api for make admin route",
+            "Deployed to heroku",
+            "Mobile responsive",
+            "Admin access email: admin@admin.com password: 123456"
+        ],
+        "credentials": {
+            "email": "admin@admin.com",
+            "password": "123456"
+        },
+        "links": [
+            {
+                "link": "Live Website Link",
+                "url": "https://nokshi-49670.web.app/"
+            },
+            {
+                "link": "Github Client",
+                "url": "https://github.com/mdimran1409036/niche-website-client-side-"
+            },
+            {
+                "link": "Github Server",
+                "url": "https://github.com/mdimran1409036/niche-website-server-side"
+            }
+        ],
+        "images": [
+            "https://i.ibb.co/pXZZwy0/homepage.png",
+            "https://i.ibb.co/f9dJy0R/login.png",
+            "https://i.ibb.co/7468ZC0/dashboard.png",
+            "https://i.ibb.co/Kjf7H3k/manage-Products.png",
+            "https://i.ibb.co/F6921YQ/manage-User-Role.png",
+            "https://i.ibb.co/2qzNRzV/add-Product.png",
+            "https://i.ibb.co/sCGnYgZ/user-Order.png",
+            "https://i.ibb.co/7NrJZCM/user-Review.png"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Happy Events",
+        "tech": [
+            "React",
+            "Node",
+            "MongoDB",
+            "Firebase",
+            "Bootstrap",
+            "Heroku",
+            "firebase",
+            "axios",
+            "react-router",
+            "dotenv",
+            "cors"
+        ],
+        "details": "A holiday event booking website that offers different events. In order to purchase an event user needs to be authenticated, And authenticated user can manage orders(CRUD operation) and create team member. All CRUD API's created using express.js ",
+        "description": [
+            "A holiday event booking website which offers different events",
+            "A user can place order",
+            "Unauthenticated user only can see the services, home page",
+            "An authenticated user can place order using their information",
+            "An authenticated user can add service, team member, place order, change order status, delete order , delete services and other crud operation",
+            " User will be redirected to the page after authentication",
+            "Mongodb database connected with the server in the backened",
+            "Create, Read, Delete and Update operation performed",
+            "Deployed in heroku",
+            "Mobile responsive"
+        ],
+        "links": [
+            {
+                "link": "Live Website Link",
+                "url": "https://assignment-11-holiday-planner.web.app/"
+            },
+            {
+                "link": "Github Client",
+                "url": "https://github.com/mdimran1409036/tourism--website-client-side"
+            },
+            {
+                "link": "Github Server",
+                "url": "https://github.com/mdimran1409036/tourism--website-server-side"
+            }
+        ],
+        "images": [
+            "https://i.ibb.co/qj3Ygfc/homepage.png",
+            "https://i.ibb.co/ZThstw7/my-Orders-Page.png",
+            "https://i.ibb.co/kXGMHkM/add-Sevice.png",
+            "https://i.ibb.co/Z24WG5Z/login.png",
+            "https://i.ibb.co/Mcfrtc6/manage-Service.png"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Animal Doctor",
+        "tech": [
+            "React",
+            "Firebase",
+            "React bootstrap",
+            "Hash Link",
+            "React Router DOM"
+        ],
+        "details": "A service website that provides different services for animals. A user will get necessary information about the service in service details page. The pricing table is also displayed.",
+        "description": [
+            "A service website shows services and pricing",
+            "Custom hook and Context API is used to make available the users to all the routed",
+            "Google login implemented as well as traditional email and password login and registration",
+            "Firebase authentication enabled using Email/Password and Google.",
+            "Private route is implemented for contact, pricing and service details page",
+            "After reloading the page on a private route, the user was redirected to the login page.",
+            "Mobile responsive"
+        ],
+        "links": [
+            {
+                "link": "Live Website Link",
+                "url": "https://health-website-assignment.web.app/"
+            },
+            {
+                "link": "Github Client",
+                "url": "https://github.com/mdimran1409036/healthcare-related-website-"
+            }
+        ],
+        "images": [
+            "https://i.ibb.co/X4mk3fZ/homepage.png",
+            "https://i.ibb.co/26n7FQC/login-page.png",
+            "https://i.ibb.co/rkxt2Cw/pricing-page.png",
+            "https://i.ibb.co/jbjPtfW/register.png",
+            "https://i.ibb.co/rt3y8ys/contact-Us.png"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "My Portfolio website",
+        "tech": [
+            "React",
+            "React bootstrap",
+            "Netlify",
+            "Emailjs",
+            "Particlejs"
+        ],
+        "details": "A portfolio website to showcase my skills and experience",
+        "description": [
+            "A single page application featuring jewelry products, order page, reviews, and contact form",
+            "User authentication is required to access user role-based dashboard where a logged-in user can cancel an order and leave a review, Admin can manage user roles, products, and orders.",
+            "CRUD operation, JWT authentication, and Heroku deployment were performed on the server-side."
+        ],
+        "links": [
+            {
+                "link": "Github Client",
+                "url": "https://github.com/mdimran1409036/my-portfolio"
+            }
+        ]
+    }
+]
