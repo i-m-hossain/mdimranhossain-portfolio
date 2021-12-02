@@ -18,8 +18,22 @@ const Project = ({ projectId, title, details, tech, links, credentials, images }
     }
     console.log(images);
     return (
-        <Col xs={12} md={6} className="pb-4 ">
-            <Card className="h-100 card-hover" style={images?.length > 0 ? styleCursor : unstyleCursor} onClick={images?.length > 0 ? () => handleProjectDetails(projectId) : console.log('no description found')}>
+        <Col
+            xs={12} md={6}
+            className="pb-4"
+
+        >
+            <Card
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                className="h-100 card-hover"
+                style={images?.length > 0 ? styleCursor : unstyleCursor}
+                onClick={
+                    images?.length > 0
+                        ?
+                        () => handleProjectDetails(projectId)
+                        :
+                        console.log('no description found')}>
                 <Card.Body>
                     <Card.Title
                         className="title h1 p-2 w-75 mx-auto text-uppercase">{title}</Card.Title>
